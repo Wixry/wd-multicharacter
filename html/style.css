@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@600&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.char-menu{
+    position: relative;
+    height: 40vh;
+    width: 38vh;
+    top: 30vh;
+    left: 7.5vh;
+    padding-top: 10px;
+    border-radius: 25px;
+    background-color: #1d202d;
+}
+
+.char-select{
+    position: relative;
+    margin: auto;
+    margin-top: 8px;
+    top: -8px;
+    height: 17.5%;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #2c2c3b;
+}
+
+.char-icon{
+    position: relative;
+    height: 80%;
+    width: 16%;
+    top: 6px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.char-center{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fa-user{
+    font-size: 30px;
+    color: #2c2c3b;
+}
+
+.char-info{
+    margin-top: 1px;
+}
+
+.char-name{
+    position: relative;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 25px;
+    color: white;
+    
+    margin-top: -4vh;
+    margin-left: 8vh;
+}
+
+.char-buttons{
+    position: absolute;
+    display: inline-block;
+    margin-left: 32.5vh;
+    margin-top: -4vh;
+}
+
+.char-play{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: #07d307;
+    border-radius: 25px;
+}
+
+.char-delete{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: #C70000;
+    border-radius: 25px;
+}
+
+.char-create{
+    position: relative;
+    top: -8px;
+    margin: auto;
+    margin-top: 8px;
+    height: 17.5%;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #2c2c3b;
+}
+
+.char-create-icon{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.fa-circle-plus{
+    font-size: 5.5vh;
+    color: white;
+}
+
+.create-text{
+    position: absolute;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 25px;
+    margin-top: 1.8vh;
+    margin-left: 7.8vh;
+    color: white;
+}
+
+/* Character information */
+
+.char-header{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+    color: white;   
+    text-align: center;
+    padding-bottom: 10px;  
+}
+
+.char-information{
+    position: relative;
+    height: 40vh;
+    width: 38vh;
+    top: -10vh;
+    left: 150vh;
+    padding-top: 10px;
+    border-radius: 25px;
+    background-color: #1d202d;
+}
+
+.char-stats{
+    width: 100%;
+    height: 20%;
+}
+
+.char-info-box{
+    margin: auto;
+    width: 95%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: #2c2c3b;
+}
+
+.char-info-names{
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.char-info-spacer{
+    margin: auto;
+    width: 90%;
+    height: 2px;
+    border-radius: 25px;
+    background-color: #1d202d;
+}
+
+.char-info-desc{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+/* Slider */
+
+.char-slider{
+    margin: auto;
+    margin-top: 12vh;
+    width: 50%;
+}
+
+.slidecontainer {
+    width: 90%;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 25px;
+    padding-left: 3.5px;
+    padding-right: 3.5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background: #2c2c3b;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #2c2c3b;
+    cursor: pointer;
+}
